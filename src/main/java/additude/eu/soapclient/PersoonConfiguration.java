@@ -23,4 +23,11 @@ public class PersoonConfiguration {
         client.setUnmarshaller(marshaller);
         return client;
     }
+
+    // Voor ons voorbeeld niet nodig.
+//    @Bean
+//    public SoapClientInterceptor interceptor() {
+//        return new SoapClientInterceptor();
+//    }
+
 }
